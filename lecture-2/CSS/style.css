@@ -1,0 +1,11 @@
+h1 {
+  color: blue;
+  background: gray;
+  border: 2px solid red;
+}
+p {
+  width: 900px;
+  color: green;
+  border: 3px solid green;
+  text-transform: uppercase;
+}

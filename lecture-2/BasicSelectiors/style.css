@@ -1,0 +1,24 @@
+/*element selector*/
+h1 {
+  color: green;
+  border: 4px solid red;
+}
+#firstP {
+  color: blue;
+  border: 3px solid red;
+}
+.second {
+  color: chartreuse;
+  border: 5px solid violet;
+}
+.two {
+  font-size: large;
+  color: rgb(68, 53, 199);
+}
+.three {
+  border: 5px solid black;
+}
+/* arrtibute selector */
+input[type="text"] {
+  background: pink;
+}
