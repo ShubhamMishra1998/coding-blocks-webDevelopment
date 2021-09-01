@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment1Solution</title>
+  </head>
+  <body>
+    <h1>My Bio Data</h1>
+    <form action="/">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="FirstName">FirstName:</label>
+        <input type="text" placeholder="FirstName" id="FirstName" required />
+        <label for="LastName">LastName:</label>
+        <input
+          type="text"
+          placeholder="LastName"
+          id="LastName"
+          required
+        /><br /><br />
+        Male:
+        <input type="radio" name="gender" />
+        Female:
+        <input type="radio" name="gender" />
+        Others:
+        <input type="radio" name="gender" /><br /><br />
+        Date of Birth:
+        <input type="date" /><br /><br />
+        <label for="Email">E-Mail:</label>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          id="Email"
+        /><br /><br />
+        <label for="phone">Phone</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="+91"
+          maxlength="10"
+          required
+        />
+        <br /><br />
+        <label for="height">Height</label>
+        <input type="text" id="height" placeholder="Height in feet" /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Education</legend>
+        <label for="school">School Name:</label>
+        <input type="text" placeholder="School Name" id="school" /><br /><br />
+        <label for="class">Class:</label>
+        <input type="text" id="class" placeholder="Enter Class" /><br /><br />
+        Stream:
+        <select name="stream" id="">
+          <option>Science</option>
+          <option>Maths</option>
+          <option>Commerse</option></select
+        ><br /><br />
+        Marksheet:
+        <input type="file" />
+      </fieldset>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <br /><br />
+
+    <h1>This is Time Table</h1>
+    <table border="5" cellspacing="5" cellpadding="10" bgcolor="lightgrey">
+      <thead>
+        <tr align="center">
+          <th>Days/Periods</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+          <th>&nbsp&nbsp</th>
+          <th>4</th>
+          <th>5</th>
+          <th width="60">6</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr align="center">
+          <td>Mon</td>
+          <td>Science</td>
+          <td>English</td>
+          <td>Hindi</td>
+          <td rowspan="6">B<br />R<br />E<br />A<br />K</td>
+          <td>Maths</td>
+          <td>Games</td>
+          <td>Moral Science</td>
+        </tr>
+        <tr align="center">
+          <td>Tue</td>
+          <td>Science</td>
+          <td>English</td>
+          <td>Hindi</td>
+          <!-- <td rowspan="6">BREAK</td> -->
+          <td>Maths</td>
+          <td>Games</td>
+          <td>Moral Science</td>
+        </tr>
+        <tr align="center">
+          <td>Wed</td>
+          <td>Science</td>
+          <td>English</td>
+          <td rowspan="3">Hindi</td>
+          <!-- <td rowspan="6">BREAK</td> -->
+          <td>Maths</td>
+          <td>Games</td>
+          <td>Moral Science</td>
+        </tr>
+        <tr align="center">
+          <td>Thu</td>
+          <td>Science</td>
+          <td>English</td>
+          <!-- <td rowspan="3">Hindi</td> -->
+          <!-- <td rowspan="6">BREAK</td> -->
+          <td>Maths</td>
+          <td>Games</td>
+          <td>Moral Science</td>
+        </tr>
+        <tr align="center">
+          <td>Fri</td>
+          <td>Science</td>
+          <td>English</td>
+          <!-- <td rowspan="3">Hindi</td> -->
+          <!-- <td rowspan="6">BREAK</td> -->
+          <td>Maths</td>
+          <td>Games</td>
+          <td>Moral Science</td>
+        </tr>
+        <tr align="center">
+          <td>Sat</td>
+          <td>Science</td>
+          <td>English</td>
+          <td>Hindi</td>
+          <td colspan="3">Maths</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr align="center">
+          <td colspan="8">This is Class VII</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
