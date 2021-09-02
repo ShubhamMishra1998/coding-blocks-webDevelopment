@@ -1,0 +1,16 @@
+/* decendent selector */
+div p strong {
+  color: orange;
+}
+/* Child Combinator */
+ol > li {
+  border-top: orange 3px solid;
+}
+/* adjacent sibling selector */
+h4 + p {
+  text-decoration: line-through;
+}
+/* general sibling combinator */
+section div ~ p {
+  text-decoration: line-through;
+}

@@ -1,0 +1,22 @@
+/* Universal selector */
+* {
+  font-weight: bold;
+}
+/* id selector */
+#heading {
+  color: crimson;
+  text-transform: uppercase;
+}
+/* elemrnt selector */
+body {
+  background-color: rgba(11, 197, 188, 0.6);
+}
+/* class selector */
+.para {
+  border: 2px solid black;
+}
+/* attribute selector */
+a[href="https://google.com"]
+{
+  color: orange;
+}
