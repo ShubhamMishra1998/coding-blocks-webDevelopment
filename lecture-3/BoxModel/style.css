@@ -1,0 +1,12 @@
+/* 4 properties */
+
+p {
+  /* height and width */
+  width: 400px;
+  /* border */
+  border: 2px solid red;
+  /* margin */
+  margin: 70px;
+  /* padding */
+  padding: 50px;
+}

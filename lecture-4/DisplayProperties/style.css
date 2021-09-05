@@ -1,0 +1,31 @@
+h1 {
+  border: 2px solid black;
+  background-color: aqua;
+  display: inline;
+  /* Box model properties */
+  /* height: 300px;
+  width: 300px;
+  padding: 20px;
+  margin: 30px; */
+  /* in inline diplay height and width are not respected the don't work */
+}
+span {
+  border: 2px solid black;
+  background-color: greenyellow;
+  display: block;
+  height: 40px;
+  width: 300px;
+  margin: 30px;
+  padding: 20px;
+  /* in block all 4 properties work */
+}
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+div:nth-of-type(2) {
+  display: none;
+}

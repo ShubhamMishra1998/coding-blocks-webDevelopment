@@ -1,0 +1,15 @@
+/* starts with */
+a[href^="http"] {
+  color: darkviolet;
+}
+
+/* endswith */
+a[href$="in"] {
+  text-decoration: none;
+  color: teal;
+}
+
+/* present any where */
+a[href*="coding"] {
+  color: darkred;
+}
