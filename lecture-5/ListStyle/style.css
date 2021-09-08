@@ -1,0 +1,19 @@
+section h2 {
+  text-align: center;
+}
+section {
+  border: 1px solid black;
+  width: 50vw;
+  margin: 40px auto;
+  background-color: aliceblue;
+  font-size: 30px;
+}
+
+section ul {
+  list-style-type: "\1F34D";
+  margin: 10px;
+  list-style-position: inside;
+}
+section ul li {
+  border: 1px solid blue;
+}

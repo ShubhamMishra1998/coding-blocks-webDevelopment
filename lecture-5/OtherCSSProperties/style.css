@@ -1,0 +1,35 @@
+p {
+  white-space: nowrap;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  width: 70vw;
+  overflow: scroll;
+  margin: 30px auto;
+}
+/* p:hover {
+  overflow: scroll;
+  text-overflow: clip;
+} */
+
+#chat-box {
+  border: 2px solid black;
+  padding: 16px;
+  margin: 30px auto;
+  width: 50vw;
+  font-size: 1.2rem;
+  height: 300px;
+  overflow: scroll;
+}
+li {
+  border: 1px solid grey;
+  list-style: none;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+}
+div {
+  /* width: 700px; */
+  height: 150px;
+  background-color: rgb(136, 27, 82);
+  max-width: 700px;
+}

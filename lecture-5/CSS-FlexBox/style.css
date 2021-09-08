@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+section {
+  width: 75vw;
+  border: 1px solid black;
+  height: 600px;
+  margin: 40px auto;
+  background-color: lightgreen;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+div {
+  height: 150px;
+  width: 150px;
+  /* display: inline-block; */
+  border: 2px solid black;
+  font-size: 30px;
+}
