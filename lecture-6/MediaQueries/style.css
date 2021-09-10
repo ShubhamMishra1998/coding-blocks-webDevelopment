@@ -1,0 +1,33 @@
+section {
+  border: 1px solid black;
+  width: 60vw;
+  margin: 50px auto;
+  padding: 16px;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+@media screen and (max-width: 760px) {
+  h1,
+  p {
+    color: red;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  h1,
+  p {
+    color: red;
+    font-size: 1.5rem;
+    border: 1px solid green;
+  }
+}
+
+@media screen and (orientation: portrait), (max-width: 480px) {
+  h1 {
+    color: blue;
+    text-shadow: 1px 1px 1 px rgb(31, 117, 117);
+    text-transform: uppercase;
+  }
+}
