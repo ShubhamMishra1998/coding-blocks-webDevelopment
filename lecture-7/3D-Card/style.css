@@ -1,0 +1,13 @@
+div {
+  height: 2500px;
+  width: 4000px;
+  border: 1px solid #ccc;
+}
+.wrapper {
+}
+.SIDE-A {
+  background-color: red;
+}
+.SIDE-B {
+  background-color: green;
+}
