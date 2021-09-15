@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  width: 75vw;
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  display: grid;
+  transition: 100ms;
+  /* grid-template-columns: repeat(auto-fill, min-max(320px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  grid-auto-rows: 250px;
+}
+div img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+div :hover {
+  opacity: 0.3;
+  cursor: pointer;
+  filter: grayscale(80%);
+}

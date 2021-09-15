@@ -1,13 +1,34 @@
+/*  */
+body {
+  perspective: 800px;
+}
 div {
-  height: 2500px;
-  width: 4000px;
+  height: 250px;
+  width: 400px;
   border: 1px solid #ccc;
 }
+.side-a {
+  background-color: lightcoral;
+  z-index: 2;
+}
+.side-b {
+  background-color: lightgreen;
+  z-index: 1;
+  transform: rotateY(180deg);
+}
 .wrapper {
+  position: relative;
+  font-size: 24px;
+  transition: 1s;
+  margin: 30px auto;
+  transform-style: preserve-3d;
 }
-.SIDE-A {
-  background-color: red;
+.side-a,
+.side-b {
+  position: absolute;
+  backface-visibility: hidden;
 }
-.SIDE-B {
-  background-color: green;
+.wrapper:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
 }

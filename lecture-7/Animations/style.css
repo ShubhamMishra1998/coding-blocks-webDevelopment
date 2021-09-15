@@ -1,0 +1,36 @@
+/*  */
+section {
+  height: 30px;
+  width: 400px;
+  background-color: lightsalmon;
+  border: 3px solid black;
+  animation-name: slider;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: 5;
+  animation-direction: reverse;
+}
+
+@keyframes slider {
+  25% {
+    height: 150px;
+    background-color: green;
+  }
+
+  50% {
+    height: 75px;
+    width: 500px;
+    background-color: lime;
+  }
+
+  75% {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+  }
+}
