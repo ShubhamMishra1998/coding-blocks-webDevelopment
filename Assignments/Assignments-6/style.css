@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #dac3e8;
+}
+nav {
+  height: 60px;
+  background-color: #d2b7e5;
+  box-shadow: 1px 7px 7px grey;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+h1 {
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+main {
+  width: 40vw;
+  height: 500px;
+  margin: 20px auto;
+  background-color: #003566;
+  box-shadow: 7px 7px 7px black;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+main h2 {
+  text-align: center;
+  color: crimson;
+  text-shadow: 3px 4px 7px black;
+}
+
+input {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 85%;
+  height: 30px;
+
+  background-color: #003566;
+  font-size: large;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid lightsalmon;
+}
+#submit {
+  height: 32px;
+  width: 50px;
+  background-color: mediumslateblue;
+  color: white;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  box-shadow: 1px 2px 4px black;
+}
+main ul {
+  list-style: none;
+  margin-top: 10px;
+
+  /* padding: 5px; */
+}
+.li-class {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 95%;
+  box-sizing: border-box;
+  height: 40px;
+  background-color: blueviolet;
+  box-shadow: 1px 2px 3px black;
+  padding-top: 2px;
+}
+.p-class {
+  width: 90%;
+  display: inline-block;
+  /* border: 1px solid black; */
+  font-size: 1.2rem;
+
+  padding-left: 10px;
+}
