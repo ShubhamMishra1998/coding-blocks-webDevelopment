@@ -3,20 +3,21 @@
 const submit = document.querySelector("#submit");
 const inp = document.querySelector("#input");
 const ul = document.querySelector("#ulist");
-const innerHtmlLi = `<p class="p-class">fefwefwefe</p>
+const innerHtmlLi = `<p class="p-class"></p>
           <i class="fas fa-trash-alt fa-2x"></i>`;
 
 let num = 0;
 // localStorage.clear();
 // *******************************
-
+console.log(localStorage.length);
 for (let i = 0; i < localStorage.length; i++) {
   const inHtml = localStorage.getItem(localStorage.key(i));
+  // console.log(inHtml);
   const li = document.createElement("li");
   li.classList.add("li-class");
   li.innerHTML = inHtml;
   ul.append(li);
-
+  // console.log(li.children);
   li.children[1].addEventListener("click", (e) => {
     let cl = li.children[0].classList[1];
 
